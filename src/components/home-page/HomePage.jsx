@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import s from "./HomePage.module.css";
+import simLogo from "../single_logo.png";
 
 class HomePage extends Component {
   render() {
@@ -21,7 +22,10 @@ class HomePage extends Component {
         <div className={s.aboutContainer} id="About">
           <h4>{this.props.aboutMe.title}</h4>
           <p className={s.aboutText}>{this.props.aboutMe.firstParagraph}</p>
-          <p className={s.aboutText}>{this.props.aboutMe.secondParagraph}</p>
+          <img src={simLogo} alt="single-logo" className="singleLogo" />
+          <p className={s.aboutText}>
+            {this.props.aboutMe.secondParagraph}
+          </p>
         </div>
       </>
     );

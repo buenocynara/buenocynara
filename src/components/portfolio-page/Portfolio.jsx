@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import simLogo from "../single_logo.png";
 import s from "./Portfolio.module.css";
 
 class Portfolio extends Component {
@@ -11,8 +12,11 @@ class Portfolio extends Component {
     if (this.state.portfolio) {
       return (
         <div className={s.portfolioContainer}>
-          <div onClick={() => this.setState({ portfolio: false })}>
-            {this.props.portfolio.serviceToggle}
+          <div
+            onClick={() => this.setState({ portfolio: false })}
+            className={s.switchButton}
+          >
+            <p className={s.toggleText}>{this.props.portfolio.serviceToggle}</p>
           </div>
           <h1>{this.props.portfolio.portTitle}</h1>
           <div className={s.portItems}>
@@ -21,6 +25,11 @@ class Portfolio extends Component {
                 return (
                   <div id={index} className={s.portCard}>
                     <div className={s.portTitle}>
+                      <img
+                        src={simLogo}
+                        alt="single-logo"
+                        className="singleLogo"
+                      />
                       <h4>{item.title}</h4>
                     </div>
                     <div className={s.portContent}>{item.content}</div>
@@ -40,6 +49,11 @@ class Portfolio extends Component {
                     className={s.portImage}
                   />
                   <div className={s.portTitle}>
+                    <img
+                      src={simLogo}
+                      alt="single-logo"
+                      className="singleLogo"
+                    />
                     <h4>{item.title}</h4>
                   </div>
                   <div className={s.portContent}>{item.content}</div>
@@ -52,8 +66,11 @@ class Portfolio extends Component {
     }
     return (
       <div className={s.portfolioContainer}>
-        <div onClick={() => this.setState({ portfolio: true })}>
-          {this.props.portfolio.portToggle}
+        <div
+          onClick={() => this.setState({ portfolio: true })}
+          className={s.switchButton}
+        >
+          <p className={s.toggleText}>{this.props.portfolio.portToggle}</p>
         </div>
         <h1>{this.props.portfolio.serviceTitle}</h1>
         <div className={s.portItems}>

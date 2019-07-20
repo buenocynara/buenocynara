@@ -1,3 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+.singleLogo {
+  width: 2em;
+  height: 1em;
+  margin-bottom: .6em;
+}

@@ -5,6 +5,18 @@
   padding: 6em;
 }
 
+.switchButton {
+  cursor: pointer;
+  margin-bottom: 2em;
+  max-width: max-content;
+  height: 3em;
+}
+
+.toggleText:hover {
+  border-bottom: 1px solid;
+  transform: scale(1.1);
+}
+
 .portItems {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -20,6 +32,11 @@
 .portImage {
   margin: 1em 0;
   width: 100%;
+}
+
+.portTitle {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1650px) {

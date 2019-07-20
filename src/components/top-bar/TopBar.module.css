@@ -9,6 +9,15 @@
   justify-content: flex-end;
 }
 
+.languageSwitch {
+  font-size: 9pt;
+  cursor: pointer;
+}
+
+.languageSwitch:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 1024px) {
   .logo {
     width: 5em;

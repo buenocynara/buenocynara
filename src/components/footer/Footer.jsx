@@ -34,9 +34,9 @@ class Footer extends Component {
         <div className={s.footer} id="Contact">
           <div className={s.footerContact}>
             <img src={profile} alt="profile" className={s.profilePic} />
-            <p>Contact</p>
-            <p>email: blahblah@email.com</p>
-            <p>phone: +564551656516</p>
+            <p>{this.props.contact.title}</p>
+            <p>{this.props.contact.email}</p>
+            <p>{this.props.contact.phone}</p>
           </div>
           <div className={s.footerSocial}>
             <FaInstagram size="1.1em" className={s.footerItem} />

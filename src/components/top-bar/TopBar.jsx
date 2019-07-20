@@ -21,6 +21,7 @@ function TopBar(props) {
       behavior: "smooth"
     });
   };
+
   return (
     <>
       <Navbar expand="lg">
@@ -44,6 +45,12 @@ function TopBar(props) {
             <Nav.Link onClick={() => scrollToContact()}>
               {props.navBar.contact}
             </Nav.Link>
+            <div
+              className={s.languageSwitch}
+              onClick={() => props.switchLanguage()}
+            >
+              {props.currentLanguage ? "Porteguese" : "English"}
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -17,12 +17,29 @@ class Main extends Component {
     this.state = { english: true };
   }
 
+  componentDidMount() {
+    const hede = localStorage.getItem("language");
+    console.log(hede);
+    if (hede === "false") {
+      this.setState({ english: false });
+    }
+  }
+
+  switchLanguage = () => {
+    this.setState({ english: !this.state.english });
+    localStorage.setItem("language", !this.state.english);
+  };
+
   render() {
     let data = this.state.english ? eng : por;
     return (
       <div className={s.main}>
         <Router>
-          <TopBar navBar={data.navBar} />
+          <TopBar
+            navBar={data.navBar}
+            switchLanguage={this.switchLanguage}
+            currentLanguage={this.state.english}
+          />
           <Route
             path="/"
             exact
@@ -47,7 +64,7 @@ class Main extends Component {
             }}
           />
         </Router>
-        <Footer />
+        <Footer contact={data.contact} />
       </div>
     );
   }
