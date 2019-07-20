@@ -19,7 +19,6 @@ class Main extends Component {
 
   componentDidMount() {
     const hede = localStorage.getItem("language");
-    console.log(hede);
     if (hede === "false") {
       this.setState({ english: false });
     }
