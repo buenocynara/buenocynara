@@ -22,6 +22,7 @@
 
 .footerItem {
   margin: 0.5em;
+  cursor: pointer;
 }
 
 .instagram {

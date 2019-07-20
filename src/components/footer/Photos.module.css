@@ -5,5 +5,17 @@
 }
 
 .images {
-    width: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .photoContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .photoContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

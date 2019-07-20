@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Main from "./components/Main";
 
+import "./App.css";
+
 // redux
 
 import { createStore, applyMiddleware } from "redux";

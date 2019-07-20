@@ -22,3 +22,13 @@
     padding: 0.5em 0.5em;
   }
 }
+
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}

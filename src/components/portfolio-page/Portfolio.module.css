@@ -1,0 +1,56 @@
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 6em;
+}
+
+.portItems {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 6em;
+}
+
+.portCard {
+  width: 100%;
+  border-left: 1px solid;
+  padding: 1em;
+}
+
+.portImage {
+  margin: 1em 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1650px) {
+  .portfolioContainer {
+    padding: 4em;
+  }
+
+  .portItems {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolioContainer {
+    padding: 2em;
+  }
+
+  .portItems {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .portfolioContainer {
+    padding: 1em;
+  }
+
+  .portItems {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+  }
+}

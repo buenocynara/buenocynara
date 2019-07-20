@@ -1,9 +1,7 @@
 import {
   FETCH_DATA,
-  SEARCH_WORD,
   LOAD_SPINNER,
   KILL_SPINNER,
-  PAGES_ALL
 } from "./types";
 
 import axios from "axios";

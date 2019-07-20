@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import s from "./Footer.module.css";
 import {
   FaInstagram,
-  FaGithub,
+  FaFacebookSquare,
   FaLinkedin,
-  FaStackOverflow
+  FaWhatsapp
 } from "react-icons/fa";
 import profile from "./profile.png";
 
@@ -31,7 +31,7 @@ class Footer extends Component {
     return (
       <>
         {/* Contact */}
-        <div className={s.footer}>
+        <div className={s.footer} id="Contact">
           <div className={s.footerContact}>
             <img src={profile} alt="profile" className={s.profilePic} />
             <p>Contact</p>
@@ -39,10 +39,10 @@ class Footer extends Component {
             <p>phone: +564551656516</p>
           </div>
           <div className={s.footerSocial}>
-            <FaInstagram className={s.footerItem} />
-            <FaGithub className={s.footerItem} />
-            <FaLinkedin className={s.footerItem} />
-            <FaStackOverflow className={s.footerItem} />
+            <FaInstagram size="1.1em" className={s.footerItem} />
+            <FaFacebookSquare size="1.1em" className={s.footerItem} />
+            <FaLinkedin size="1.1em" className={s.footerItem} />
+            <FaWhatsapp size="1.1em" className={s.footerItem} />
           </div>
         </div>
 

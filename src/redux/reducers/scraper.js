@@ -1,15 +1,8 @@
-import {
-  FETCH_DATA,
-  LOAD_SPINNER,
-  KILL_SPINNER,
-} from "../actions/types";
+import { FETCH_DATA, LOAD_SPINNER, KILL_SPINNER } from "../actions/types";
 
 const INIT_STATE = {
   data: "",
-  word: "",
-  pagesAll: [],
-  isFecthing: false,
-  competeTags: []
+  isFecthing: false
 };
 
 export default (state = INIT_STATE, action) => {
