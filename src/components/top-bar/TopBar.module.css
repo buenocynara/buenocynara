@@ -1,0 +1,22 @@
+.logo {
+  width: 7em;
+}
+
+.navButtons {
+  color: black;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 5em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 5em;
+  }
+}
