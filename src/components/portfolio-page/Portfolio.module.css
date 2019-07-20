@@ -21,12 +21,14 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 6em;
+  animation: fade-in 1s;
 }
 
 .portCard {
   width: 100%;
   border-left: 1px solid;
   padding: 1em;
+  animation: slide-left 1s;
 }
 
 .portImage {
@@ -69,5 +71,25 @@
   .portItems {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1em;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    margin-left: 1em;
+  }
+
+  100% {
+    
   }
 }
