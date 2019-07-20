@@ -8,30 +8,25 @@ import {
 } from "react-icons/fa";
 import profile from "./profile.png";
 
-const insta = [
-  {
-    pic:
-      "https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-  },
-  {
-    pic:
-      "https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-  },
-  {
-    pic:
-      "https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-  },
-  {
-    pic:
-      "https://images.pexels.com/photos/1449081/pexels-photo-1449081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-  },
-  {
-    pic:
-      "https://images.pexels.com/photos/205316/pexels-photo-205316.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-  }
-];
+import Photos from "./Photos";
+
+// redux
+
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import * as actions from "../../redux/actions";
 
 class Footer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { data: undefined };
+  }
+
+  componentDidMount() {
+    this.setState({ data: localStorage.getItem("data") });
+    // !this.state.data && this.props.actions.fetchData()
+  }
+
   render() {
     return (
       <>
@@ -52,15 +47,23 @@ class Footer extends Component {
         </div>
 
         {/* Instagram */}
-        <div>Instagram feed</div>
-        <div className={s.instagram}>
-          {insta.map(insta => {
-            return <img src={insta.pic} alt="insta" className={s.insImage} />;
-          })}
-        </div>
+        <Photos data={this.state.data || this.props.data} />
       </>
     );
   }
 }
 
-export default Footer;
+const mapStateToProps = state => {
+  return {
+    data: state.data.data
+  };
+};
+
+const mapDispatchToProps = dispatch => ({
+  actions: bindActionCreators(actions, dispatch)
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Footer);
