@@ -1,7 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# IMPORTANT #
+
+After building the app in build folder, there are extensions of the github repo as /buenocynara/... . In order to get
+the app working with github pages remove those, otherwise youll face with a blank page
+
+# NAVIGATION # 
+
+Since react is a SPA. react navigators is not working with github pages, therefore navigation is handled with state changes.
+
 ## Available Scripts
-test
 
 In the project directory, you can run:
 
