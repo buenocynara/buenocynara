@@ -24,7 +24,7 @@ class Portfolio extends Component {
             {this.props.portfolio.portfolioSet.map((item, index) => {
               if (index % 2) {
                 return (
-                  <div key={index} className={s.portCard}>
+                  <div key={index} className={s.portCard2}>
                     <div className={s.portTitle}>
                       <img
                         src={simLogo}
@@ -92,7 +92,7 @@ class Portfolio extends Component {
               );
             }
             return (
-              <div key={index} className={s.portCard}>
+              <div key={index} className={s.portCard2}>
                 <img src={item.image} alt="portfolio" className={s.portImage} />
                 <div className={s.portTitle}>
                   <h4>{item.title}</h4>

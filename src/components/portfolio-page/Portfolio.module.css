@@ -31,6 +31,15 @@
   animation: slide-left 1s;
 }
 
+.portCard2 {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 100%;
+  border-left: 1px solid;
+  padding: 1em;
+  animation: slide-left 1s;
+}
+
 .portImage {
   margin: 1em 0;
   width: 100%;
@@ -90,6 +99,5 @@
   }
 
   100% {
-    
   }
 }
