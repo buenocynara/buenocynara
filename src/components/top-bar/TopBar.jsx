@@ -6,6 +6,8 @@ import s from "./TopBar.module.css";
 import img from "./logo.png";
 
 function TopBar(props) {
+  // if page path is on the portfolio it will go back to
+  // home instead of scrolling to the about me section
   const scrollToAbout = () => {
     if (window.location.pathname === "/portfolio-and-services") {
       window.location.pathname = "/";
@@ -26,6 +28,8 @@ function TopBar(props) {
     <>
       <Navbar expand="lg">
         <Navbar.Brand>
+          {/* Link is used in the Bootstrap Link, this gives a warning on the 
+          but not a big deal*/}
           <Link to="/">
             <img src={img} alt="logo" className={s.logo} />
           </Link>

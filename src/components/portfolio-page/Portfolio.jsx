@@ -20,10 +20,11 @@ class Portfolio extends Component {
           </div>
           <h1>{this.props.portfolio.portTitle}</h1>
           <div className={s.portItems}>
+            {/* Created two render for each card layout. It makes it more easy to understand*/}
             {this.props.portfolio.portfolioSet.map((item, index) => {
               if (index % 2) {
                 return (
-                  <div id={index} className={s.portCard}>
+                  <div key={index} className={s.portCard}>
                     <div className={s.portTitle}>
                       <img
                         src={simLogo}
@@ -42,7 +43,7 @@ class Portfolio extends Component {
                 );
               }
               return (
-                <div id={index} className={s.portCard}>
+                <div key={index} className={s.portCard}>
                   <img
                     src={item.image}
                     alt="portfolio"
@@ -77,7 +78,7 @@ class Portfolio extends Component {
           {this.props.portfolio.servicesSet.map((item, index) => {
             if (index % 2) {
               return (
-                <div id={index} className={s.portCard}>
+                <div key={index} className={s.portCard}>
                   <div className={s.portTitle}>
                     <h4>{item.title}</h4>
                   </div>
@@ -91,7 +92,7 @@ class Portfolio extends Component {
               );
             }
             return (
-              <div id={index} className={s.portCard}>
+              <div key={index} className={s.portCard}>
                 <img src={item.image} alt="portfolio" className={s.portImage} />
                 <div className={s.portTitle}>
                   <h4>{item.title}</h4>

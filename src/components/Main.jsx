@@ -18,6 +18,8 @@ class Main extends Component {
   }
 
   componentDidMount() {
+    // checks the local storage for previous selection
+    // this will prevent to switch back to english every time page refreshes
     const hede = localStorage.getItem("language");
     if (hede === "false") {
       this.setState({ english: false });
