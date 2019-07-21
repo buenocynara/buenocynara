@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/buenocynara.github.io/static/css/main.0d818f56.chunk.css",
-    "main.js": "/buenocynara.github.io/static/js/main.40e217ca.chunk.js",
-    "main.js.map": "/buenocynara.github.io/static/js/main.40e217ca.chunk.js.map",
-    "runtime~main.js": "/buenocynara.github.io/static/js/runtime~main.a3cced2e.js",
-    "runtime~main.js.map": "/buenocynara.github.io/static/js/runtime~main.a3cced2e.js.map",
-    "static/js/2.58a8ff07.chunk.js": "/buenocynara.github.io/static/js/2.58a8ff07.chunk.js",
-    "static/js/2.58a8ff07.chunk.js.map": "/buenocynara.github.io/static/js/2.58a8ff07.chunk.js.map",
-    "index.html": "/buenocynara.github.io/index.html",
-    "precache-manifest.9248fec1843d060a379f25d63c604433.js": "/buenocynara.github.io/precache-manifest.9248fec1843d060a379f25d63c604433.js",
-    "service-worker.js": "/buenocynara.github.io/service-worker.js",
-    "static/css/main.0d818f56.chunk.css.map": "/buenocynara.github.io/static/css/main.0d818f56.chunk.css.map",
-    "static/media/logo.png": "/buenocynara.github.io/static/media/logo.36d5a406.png",
-    "static/media/profile.png": "/buenocynara.github.io/static/media/profile.c17ad7b1.png",
-    "static/media/single_logo.png": "/buenocynara.github.io/static/media/single_logo.550eb819.png"
+    "main.css": "/static/css/main.0d818f56.chunk.css",
+    "main.js": "/static/js/main.443b190c.chunk.js",
+    "main.js.map": "/static/js/main.443b190c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.58a8ff07.chunk.js": "/static/js/2.58a8ff07.chunk.js",
+    "static/js/2.58a8ff07.chunk.js.map": "/static/js/2.58a8ff07.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e957e486873ccb0698f8261c7b872f70.js": "/precache-manifest.e957e486873ccb0698f8261c7b872f70.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0d818f56.chunk.css.map": "/static/css/main.0d818f56.chunk.css.map",
+    "static/media/logo.png": "/static/media/logo.36d5a406.png",
+    "static/media/profile.png": "/static/media/profile.c17ad7b1.png",
+    "static/media/single_logo.png": "/static/media/single_logo.550eb819.png"
   }
 }
