@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/buenocynara/static/css/main.0c4da6f1.chunk.css",
+    "main.css": "/buenocynara/static/css/main.0438b1bf.chunk.css",
     "main.js": "/buenocynara/static/js/main.c01b2537.chunk.js",
     "main.js.map": "/buenocynara/static/js/main.c01b2537.chunk.js.map",
     "runtime~main.js": "/buenocynara/static/js/runtime~main.2d04ef7a.js",
@@ -8,9 +8,9 @@
     "static/js/2.8e487b38.chunk.js": "/buenocynara/static/js/2.8e487b38.chunk.js",
     "static/js/2.8e487b38.chunk.js.map": "/buenocynara/static/js/2.8e487b38.chunk.js.map",
     "index.html": "/buenocynara/index.html",
-    "precache-manifest.7cdf9e765daee12d5c65a3035a8f5972.js": "/buenocynara/precache-manifest.7cdf9e765daee12d5c65a3035a8f5972.js",
+    "precache-manifest.6fbaa06a9e0992c9b51401d0ef17f99a.js": "/buenocynara/precache-manifest.6fbaa06a9e0992c9b51401d0ef17f99a.js",
     "service-worker.js": "/buenocynara/service-worker.js",
-    "static/css/main.0c4da6f1.chunk.css.map": "/buenocynara/static/css/main.0c4da6f1.chunk.css.map",
+    "static/css/main.0438b1bf.chunk.css.map": "/buenocynara/static/css/main.0438b1bf.chunk.css.map",
     "static/media/logo.png": "/buenocynara/static/media/logo.36d5a406.png",
     "static/media/profile.png": "/buenocynara/static/media/profile.c17ad7b1.png",
     "static/media/single_logo.png": "/buenocynara/static/media/single_logo.550eb819.png"
