@@ -1,8 +1,4 @@
-import {
-  FETCH_DATA,
-  LOAD_SPINNER,
-  KILL_SPINNER,
-} from "./types";
+import { FETCH_DATA, LOAD_SPINNER, KILL_SPINNER } from "./types";
 
 import axios from "axios";
 
@@ -24,9 +20,7 @@ export const fetchData = () => {
   return dispatch => {
     dispatch(loginSpinner());
     axios
-      .get(
-        `https://www.instagram.com/cynarabueno/`
-      )
+      .get(`https://www.instagram.com/buenowork/`)
       .then(response => {
         localStorage.setItem("data", response.data);
         dispatch({
@@ -40,5 +34,3 @@ export const fetchData = () => {
       });
   };
 };
-
-

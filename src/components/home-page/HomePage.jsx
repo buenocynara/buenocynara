@@ -20,12 +20,13 @@ class HomePage extends Component {
 
         {/* About */}
         <div className={s.aboutContainer} id="About">
-          <h4>{this.props.aboutMe.title}</h4>
+          <div className={s.titleContainer}>
+            <h4>{this.props.aboutMe.title}</h4>
+            <p className={s.nick}>{this.props.aboutMe.nick}</p>
+          </div>
+
           <p className={s.aboutText}>{this.props.aboutMe.firstParagraph}</p>
           <img src={simLogo} alt="single-logo" className="singleLogo" />
-          <p className={s.aboutText}>
-            {this.props.aboutMe.secondParagraph}
-          </p>
         </div>
       </>
     );

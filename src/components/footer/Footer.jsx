@@ -24,7 +24,7 @@ class Footer extends Component {
 
   componentDidMount() {
     this.setState({ data: localStorage.getItem("data") });
-    // !this.state.data && this.props.actions.fetchData()
+    !this.state.data && this.props.actions.fetchData();
   }
 
   render() {
@@ -39,10 +39,18 @@ class Footer extends Component {
             <p>{this.props.contact.phone}</p>
           </div>
           <div className={s.footerSocial}>
-            <FaInstagram size="1.1em" className={s.footerItem} />
-            <FaFacebookSquare size="1.1em" className={s.footerItem} />
-            <FaLinkedin size="1.1em" className={s.footerItem} />
-            <FaWhatsapp size="1.1em" className={s.footerItem} />
+            <a href={this.props.contact.instagram}>
+              <FaInstagram size="1.1em" className={s.footerItem} />
+            </a>
+            <a href={this.props.contact.facebook}>
+              <FaFacebookSquare size="1.1em" className={s.footerItem} />
+            </a>
+            <a href={this.props.contact.linkedin}>
+              <FaLinkedin size="1.1em" className={s.footerItem} />
+            </a>
+            <a href="tel:+5561981763776">
+              <FaWhatsapp size="1.1em" className={s.footerItem} />
+            </a>
           </div>
         </div>
 

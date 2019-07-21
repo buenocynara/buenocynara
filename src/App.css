@@ -2,8 +2,22 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: "Abel", sans-serif;
+}
+
+p,
+a {
+  font-size: 14pt;
+}
+
 .singleLogo {
   width: 2em;
   height: 1em;
-  margin-bottom: .6em;
+  margin-bottom: 0.6em;
 }

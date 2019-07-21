@@ -14,7 +14,7 @@ import { eng, por } from "./languages";
 class Main extends Component {
   constructor(props) {
     super(props);
-    this.state = { english: true };
+    this.state = { english: true, portfolio: false };
   }
 
   componentDidMount() {
@@ -31,40 +31,35 @@ class Main extends Component {
     localStorage.setItem("language", !this.state.english);
   };
 
+  portfolioPage = () => {
+    this.setState({ portfolio: true });
+  };
+
+  homePage = () => {
+    this.setState({ portfolio: false });
+  };
+
   render() {
     let data = this.state.english ? eng : por;
     return (
       <div className={s.main}>
-        <Router>
-          <TopBar
-            navBar={data.navBar}
-            switchLanguage={this.switchLanguage}
-            currentLanguage={this.state.english}
-          />
-          <Route
-            path="/"
-            exact
-            render={props => {
-              return (
-                <HomePage
-                  {...props}
-                  banner={data.banner}
-                  aboutMe={data.aboutMe}
-                />
-              );
-            }}
-          />
-          <Route
-            path="/portfolio-and-services"
-            render={props => {
-              return (
-                <div>
-                  <Portfolio {...props} portfolio={data.portfolio} />
-                </div>
-              );
-            }}
-          />
-        </Router>
+        <TopBar
+          navBar={data.navBar}
+          switchLanguage={this.switchLanguage}
+          currentLanguage={this.state.english}
+          portfolio={this.state.portfolio}
+          homePage={this.homePage}
+          portfolioPage={this.portfolioPage}
+        />
+
+        {this.state.portfolio ? (
+          <div>
+            <Portfolio portfolio={data.portfolio} />
+          </div>
+        ) : (
+          <HomePage banner={data.banner} aboutMe={data.aboutMe} />
+        )}
+
         <Footer contact={data.contact} />
       </div>
     );

@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import Main from "./components/Main";
 
 import "./App.css";
@@ -15,11 +14,9 @@ const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
 function App() {
   return (
-    <BrowserRouter>
       <Provider store={store}>
         <Main />
       </Provider>
-    </BrowserRouter>
   );
 }
 

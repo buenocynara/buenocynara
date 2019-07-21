@@ -1,5 +1,22 @@
 .logo {
   width: 7em;
+  max-height: 1.4em;
+  cursor: pointer;
+}
+
+.logoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.changingText {
+  margin: 0 2em;
+  padding: 0;
+  opacity: 0.5;
+  animation: fade-in 1s;
+  font-family: 'Dancing Script', cursive;
 }
 
 .navButtons {
@@ -21,11 +38,30 @@
 @media screen and (max-width: 1024px) {
   .logo {
     width: 5em;
+    max-height: 1em;
+  }
+  .changingText {
+    display: none;
   }
 }
 
 @media screen and (max-width: 640px) {
   .logo {
     width: 5em;
+    max-height: 1em;
+  }
+
+  .changingText {
+    display: none;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
   }
 }

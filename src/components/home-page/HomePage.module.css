@@ -17,6 +17,7 @@
 
 .bannerTitle {
   text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   color: white;
   display: flex;
   width: 100%;
@@ -34,6 +35,15 @@
   width: 100%;
   padding: 3em;
   animation: fade-in 2s;
+}
+
+.nick {
+  opacity: 0.5;
+  margin-left: 1em;
+}
+
+.titleContainer {
+  display: flex;
 }
 
 .aboutText {
@@ -57,7 +67,19 @@
     padding: 0 1em;
   }
 
+  .aboutContainer {
+    padding: 3em 0;
+  }
+
   .aboutText {
+    margin: 0;
+  }
+
+  .titleContainer {
+    flex-direction: column;
+  }
+
+  .nick {
     margin: 0;
   }
 }
