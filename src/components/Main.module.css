@@ -39,6 +39,16 @@
   width: 100%;
 }
 
+.discClose {
+  cursor: pointer;
+}
+
+.cookie {
+  cursor: pointer;
+  color: silver;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1024px) {
   .bannerTitle {
     padding: 0 1em;

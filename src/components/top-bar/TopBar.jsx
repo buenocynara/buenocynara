@@ -16,7 +16,7 @@ class TopBar extends Component {
         this.setState({
           title: this.state.title < 4 ? this.state.title + 1 : 0
         }),
-      6000
+      3000
     );
   }
   componentWillUnmount() {
@@ -24,22 +24,9 @@ class TopBar extends Component {
   }
 
   renderChangingTitle = () => {
+    const { navBar } = this.props;
     const { title } = this.state;
-    if (title === 0) {
-      return <p className={s.changingText}>arquitetura simplificada</p>;
-    }
-    if (title === 1) {
-      return <p className={s.changingText}>arquitetura singular</p>;
-    }
-    if (title === 2) {
-      return <p className={s.changingText}>arquitetura inclusiva</p>;
-    }
-    if (title === 3) {
-      return <p className={s.changingText}>arquitetura consciente</p>;
-    }
-    if (title === 4) {
-      return <p className={s.changingText}>arquitetura humanitária</p>;
-    }
+    return <p className={s.changingText}>{navBar.changingText[title]}</p>;
   };
 
   render() {
@@ -65,7 +52,7 @@ class TopBar extends Component {
 
     return (
       <>
-        <Navbar expand="lg">
+        <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand onClick={() => homePage()}>
             {/* Link is used in the Bootstrap Link, this gives a warning on the 
           but not a big deal*/}
@@ -89,12 +76,9 @@ class TopBar extends Component {
               <Nav.Link onClick={() => scrollToContact()}>
                 {this.props.navBar.contact}
               </Nav.Link>
-              <div
-                className={s.languageSwitch}
-                onClick={() => this.props.switchLanguage()}
-              >
-                {this.props.currentLanguage ? "BR" : "EN"}
-              </div>
+              <Nav.Link onClick={() => this.props.switchLanguage()}>
+                BR | EN
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

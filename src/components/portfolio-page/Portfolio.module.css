@@ -5,16 +5,23 @@
   padding: 6em;
 }
 
-.switchButton {
-  cursor: pointer;
-  margin-bottom: 2em;
-  max-width: max-content;
-  height: 3em;
+.toggle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 4em;
 }
 
-.toggleText:hover {
-  border-bottom: 1px solid;
-  transform: scale(1.1);
+.active {
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+.passive {
+  opacity: 0.5;
+  margin: 0 0.5em;
+  cursor: pointer;
 }
 
 .portItems {
@@ -48,6 +55,10 @@
 .portTitle {
   display: flex;
   align-items: center;
+}
+
+.portContent {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1650px) {

@@ -12,13 +12,16 @@ class Portfolio extends Component {
     if (this.state.portfolio) {
       return (
         <div className={s.portfolioContainer}>
-          <div
-            onClick={() => this.setState({ portfolio: false })}
-            className={s.switchButton}
-          >
-            <p className={s.toggleText}>{this.props.portfolio.serviceToggle}</p>
+          <div className={s.toggle}>
+            <h2 className={s.active}>{this.props.portfolio.portTitle}</h2>
+            <h2
+              className={s.passive}
+              onClick={() => this.setState({ portfolio: false })}
+            >
+              {this.props.portfolio.serviceTitle}
+            </h2>
           </div>
-          <h1>{this.props.portfolio.portTitle}</h1>
+
           <div className={s.portItems}>
             {/* Created two render for each card layout. It makes it more easy to understand*/}
             {this.props.portfolio.portfolioSet.map((item, index) => {
@@ -67,13 +70,16 @@ class Portfolio extends Component {
     }
     return (
       <div className={s.portfolioContainer}>
-        <div
-          onClick={() => this.setState({ portfolio: true })}
-          className={s.switchButton}
-        >
-          <p className={s.toggleText}>{this.props.portfolio.portToggle}</p>
+        <div className={s.toggle}>
+          <h2
+            className={s.passive}
+            onClick={() => this.setState({ portfolio: true })}
+          >
+            {this.props.portfolio.portTitle}
+          </h2>
+          <h2 className={s.active}>{this.props.portfolio.serviceTitle}</h2>
         </div>
-        <h1>{this.props.portfolio.serviceTitle}</h1>
+
         <div className={s.portItems}>
           {this.props.portfolio.servicesSet.map((item, index) => {
             if (index % 2) {

@@ -21,3 +21,7 @@ a {
   height: 1em;
   margin-bottom: 0.6em;
 }
+
+.cookieConsent {
+  background: rgba(53, 53, 53, 0.5);
+}

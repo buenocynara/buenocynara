@@ -42,6 +42,10 @@
   margin-left: 1em;
 }
 
+.name {
+  margin-right: 1em;
+}
+
 .titleContainer {
   display: flex;
 }

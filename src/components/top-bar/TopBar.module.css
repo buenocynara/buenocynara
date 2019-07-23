@@ -20,19 +20,10 @@
 }
 
 .navButtons {
-  color: black;
+  color: rgb(95, 95, 95);
   display: flex;
   width: 100%;
   justify-content: flex-end;
-}
-
-.languageSwitch {
-  font-size: 9pt;
-  cursor: pointer;
-}
-
-.languageSwitch:hover {
-  opacity: 0.5;
 }
 
 @media screen and (max-width: 1024px) {
