@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/buenocynara/static/css/main.0438b1bf.chunk.css",
-    "main.js": "/buenocynara/static/js/main.8de9dfe2.chunk.js",
-    "main.js.map": "/buenocynara/static/js/main.8de9dfe2.chunk.js.map",
+    "main.css": "/buenocynara/static/css/main.2ce020be.chunk.css",
+    "main.js": "/buenocynara/static/js/main.1e6c0266.chunk.js",
+    "main.js.map": "/buenocynara/static/js/main.1e6c0266.chunk.js.map",
     "runtime~main.js": "/buenocynara/static/js/runtime~main.2d04ef7a.js",
     "runtime~main.js.map": "/buenocynara/static/js/runtime~main.2d04ef7a.js.map",
-    "static/js/2.8e487b38.chunk.js": "/buenocynara/static/js/2.8e487b38.chunk.js",
-    "static/js/2.8e487b38.chunk.js.map": "/buenocynara/static/js/2.8e487b38.chunk.js.map",
+    "static/js/2.540ac0aa.chunk.js": "/buenocynara/static/js/2.540ac0aa.chunk.js",
+    "static/js/2.540ac0aa.chunk.js.map": "/buenocynara/static/js/2.540ac0aa.chunk.js.map",
     "index.html": "/buenocynara/index.html",
-    "precache-manifest.84f89bb1c4cb6144ffdb36c03d515022.js": "/buenocynara/precache-manifest.84f89bb1c4cb6144ffdb36c03d515022.js",
+    "precache-manifest.7860a3f0702d88023f132105abb9718b.js": "/buenocynara/precache-manifest.7860a3f0702d88023f132105abb9718b.js",
     "service-worker.js": "/buenocynara/service-worker.js",
-    "static/css/main.0438b1bf.chunk.css.map": "/buenocynara/static/css/main.0438b1bf.chunk.css.map",
+    "static/css/main.2ce020be.chunk.css.map": "/buenocynara/static/css/main.2ce020be.chunk.css.map",
     "static/media/logo.png": "/buenocynara/static/media/logo.36d5a406.png",
     "static/media/profile.png": "/buenocynara/static/media/profile.c17ad7b1.png",
     "static/media/single_logo.png": "/buenocynara/static/media/single_logo.550eb819.png"

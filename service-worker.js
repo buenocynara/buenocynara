@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/buenocynara/precache-manifest.84f89bb1c4cb6144ffdb36c03d515022.js"
+  "/buenocynara/precache-manifest.7860a3f0702d88023f132105abb9718b.js"
 );
 
 self.addEventListener('message', (event) => {
