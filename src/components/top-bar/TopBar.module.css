@@ -16,7 +16,7 @@
   padding: 0;
   opacity: 0.5;
   animation: fade-in 1s;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .navButtons {
@@ -24,6 +24,21 @@
   display: flex;
   width: 100%;
   justify-content: flex-end;
+}
+
+.switchLanguage {
+  display: flex;
+  margin-top: 0.4em;
+}
+
+.bra {
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.eng {
+  margin-left: 0.5em;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {

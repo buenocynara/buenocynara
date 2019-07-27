@@ -39,11 +39,11 @@ export const eng = {
   },
   contact: {
     title: "Contact",
-    email: "email: bueno.cynara@gmail.com",
-    phone: "phone: +55 61 981763776",
+    email: "bueno.cynara@gmail.com",
+    phone: "+55 61 981763776",
     instagram: "https://www.instagram.com/buenowork/",
     facebook: "https://www.facebook.com/buenowork/",
-    linkedin: "www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/cynara-bueno-8b27362b/",
     whatsapp: "+55 61 981763776"
   },
   portfolio: {
@@ -153,11 +153,11 @@ export const por = {
   },
   contact: {
     title: "Contato",
-    email: "email: bueno.cynara@gmail.com",
-    phone: "phone: +55 61 981763776",
+    email: "bueno.cynara@gmail.com",
+    phone: "+55 61 981763776",
     instagram: "https://www.instagram.com/buenowork/",
     facebook: "https://www.facebook.com/buenowork/",
-    linkedin: "www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/cynara-bueno-8b27362b/",
     whatsapp: "+55 61 981763776"
   },
   portfolio: {

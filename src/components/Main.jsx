@@ -94,27 +94,25 @@ class Main extends Component {
               Use and agree that you are responsible for the agreement with any
               applicable local laws. If you disagree with any of these terms,
               you are prohibited from accessing this site. The materials
-              contained in this Website are protected by copyright and trade
-              mark law. These Terms of Service has been created with the help of
-              the Terms of Service Generator and the Privacy Policy Template.
+              contained in this Website are protected by copyright and trademark
+              law. These Terms of Service has been created with the help of the
+              Terms of Service Generator and the Privacy Policy Template.
             </p>
             <h4>2. Use License</h4>
             <p>
               Permission is granted to temporarily download one copy of the
-              materials on Buneo Work's Website for personal, non-commercial
+              materials on Bueno Cynara's Website for personal, non-commercial
               transitory viewing only. This is the grant of a license, not a
-              transfer of title, and under this license you may not:
-            </p>
-            <p>
-              modify or copy the materials; use the materials for any commercial
-              purpose or for any public display; attempt to reverse engineer any
-              software contained on Buneo Work's Website; remove any copyright
+              transfer of title, and under this license, you may notmodify or
+              copy the materials; use the materials for any commercial purpose
+              or for any public display; attempt to reverse engineer any
+              software contained on Bueno Cynara's Website remove any copyright
               or other proprietary notations from the materials; or transferring
               the materials to another person or "mirror" the materials on any
               other server.
             </p>
             <p>
-              This will let Buneo Work to terminate upon violations of any of
+              This will let Bueno Cynara terminate upon violations of any of
               these restrictions. Upon termination, your viewing right will also
               be terminated and you should destroy any downloaded materials in
               your possession whether it is printed or electronic format.
@@ -122,8 +120,8 @@ class Main extends Component {
             <h4>3. Disclaimer</h4>
             <p>
               All the materials on Buneo Work’s Website are provided "as is".
-              Buneo Work makes no warranties, may it be expressed or implied,
-              therefore negates all other warranties. Furthermore, Buneo Work
+              Bueno Cynara makes no warranties, may it be expressed or implied,
+              therefore negates all other warranties. Furthermore, Bueno Work
               does not make any representations concerning the accuracy or
               reliability of the use of the materials on its Website or
               otherwise relating to such materials or any sites linked to this
@@ -131,35 +129,35 @@ class Main extends Component {
             </p>
             <h4>4. Limitations</h4>
             <p>
-              Buneo Work or its suppliers will not be hold accountable for any
+              Bueno Work or its suppliers will not be held accountable for any
               damages that will arise with the use or inability to use the
-              materials on Buneo Work’s Website, even if Buneo Work or an
-              authorize representative of this Website has been notified, orally
-              or written, of the possibility of such damage. Some jurisdiction
-              does not allow limitations on implied warranties or limitations of
-              liability for incidental damages, these limitations may not apply
-              to you.
+              materials on Bueno Cynara’s Website, even if Bueno Cynara or an
+              authorized representative of this Website has been notified,
+              orally or written, of the possibility of such damage. Some
+              jurisdiction does not allow limitations on implied warranties or
+              limitations of liability for incidental damages, these limitations
+              may not apply to you.
             </p>
             <h4>5. Revisions and Errata</h4>
             <p>
-              The materials appearing on Buneo Work’s Website may include
-              technical, typographical, or photographic errors. Buneo Work will
-              not promise that any of the materials in this Website are
-              accurate, complete, or current. Buneo Work may change the
+              The materials appearing on Bueno Work’s Website may include
+              technical, typographical, or photographic errors. Bueno Cynara
+              will not promise that any of the materials in this Website are
+              accurate, complete, or current. Bueno Cynara may change the
               materials contained on its Website at any time without notice.
-              Buneo Work does not make any commitment to update the materials.
+              Bueno Work does not make any commitment to update the materials.
             </p>
             <h4>6. Links</h4>
             <p>
-              Buneo Work has not reviewed all of the sites linked to its Website
-              and is not responsible for the contents of any such linked site.
-              The presence of any link does not imply endorsement by Buneo Work
-              of the site. The use of any linked website is at the user’s own
-              risk.
+              Bueno Cynara has not reviewed all of the sites linked to its
+              Website and is not responsible for the contents of any such linked
+              site. The presence of any link does not imply endorsement by Bueno
+              Work of the site. The use of any linked website is at the user’s
+              own risk.
             </p>
             <h4>7. Site Terms of Use Modifications</h4>
             <p>
-              Buneo Work may revise these Terms of Use for its Website at any
+              Bueno Work may revise these Terms of Use for its Website at any
               time without prior notice. By using this Website, you are agreeing
               to be bound by the current version of these Terms and Conditions
               of Use.
@@ -168,8 +166,9 @@ class Main extends Component {
             <p>Please read our Privacy Policy.</p>
             <h4>9. Governing Law</h4>
             <p>
-              Any claim related to Buneo Work's Website shall be governed by the
-              laws of br without regards to its conflict of law provisions.
+              Any claim related to Bueno Cynara's Website shall be governed by
+              the laws of Brazil without regards to its conflict of law
+              provisions.
             </p>
           </Modal.Body>
           <Modal.Footer>

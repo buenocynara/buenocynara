@@ -76,9 +76,29 @@ class TopBar extends Component {
               <Nav.Link onClick={() => scrollToContact()}>
                 {this.props.navBar.contact}
               </Nav.Link>
-              <Nav.Link onClick={() => this.props.switchLanguage()}>
-                BR | EN
-              </Nav.Link>
+              <div onClick={() => this.props.switchLanguage()}>
+                <div className={s.switchLanguage}>
+                  <div
+                    className={s.bra}
+                    style={{
+                      color: !this.props.currentLanguage && "black",
+                      fontWeight: !this.props.currentLanguage && "bold"
+                    }}
+                  >
+                    BR
+                  </div>
+                  |
+                  <div
+                    className={s.eng}
+                    style={{
+                      color: this.props.currentLanguage && "black",
+                      fontWeight: this.props.currentLanguage && "bold"
+                    }}
+                  >
+                    EN
+                  </div>
+                </div>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
