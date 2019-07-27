@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "452bb61d2270045c719f1e3ac14ea4b3",
+    "revision": "c8b19e3a98a5413c68c62403fb818b64",
     "url": "/buenocynara/index.html"
   },
   {
-    "revision": "69f1823dac4126bb1c0d",
+    "revision": "ad911d20c68c738729e8",
     "url": "/buenocynara/static/css/main.7d84dd02.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buenocynara/static/js/2.fa6b980a.chunk.js"
   },
   {
-    "revision": "69f1823dac4126bb1c0d",
-    "url": "/buenocynara/static/js/main.b8b17d39.chunk.js"
+    "revision": "ad911d20c68c738729e8",
+    "url": "/buenocynara/static/js/main.8442bfbb.chunk.js"
   },
   {
     "revision": "5c624c3b9506db62a5d3",
